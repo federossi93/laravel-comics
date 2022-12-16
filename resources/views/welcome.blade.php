@@ -27,7 +27,7 @@
             <div class="row rows-col-5 justify-content-center align-items-center">
                 @foreach($cards as $card)
                 <div class="col" v-for="card in cards">
-                    <img src="{{$card['img']}}" alt="">
+                    <img src="{{Vite::asset($card['img'])}}" alt="">
                     <span class="text-uppercase text-light px-2">{{$card['description']}}</span>
                 </div>
                 @endforeach

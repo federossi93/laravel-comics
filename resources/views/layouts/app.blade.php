@@ -24,7 +24,8 @@
         @yield('generalCard')
     </main>
 
-    @include('partials.footer')
+    @include('partials.footerTop')
+    @include('partials.footerBot')
 
 </body>
 
