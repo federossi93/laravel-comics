@@ -20,9 +20,8 @@
     @include('partials.header')
 
     <main>
-        @yield('content')
-
-        @yield('content2')
+        @yield('comixCard')
+        @yield('generalCard')
     </main>
 
     @include('partials.footer')

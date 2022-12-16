@@ -213,5 +213,28 @@ return [
                 "Joëlle Jones"
             ],
         ],
-    ]
+    ],
+
+    'cards' =>[
+        [
+            'img' => "resources/images/buy-comics-digital-comics.png",
+            'description' => "digital comics"
+        ],
+        [
+            'img' => "resources/images/buy-comics-merchandise.png",
+            'description' => "dc merchandise"
+        ],
+        [
+            'img' => "resources/images/buy-comics-subscriptions.png",
+            'description' => "subscription"
+        ],
+        [
+            'img' => "resources/images/buy-comics-shop-locator.png",
+            'description' => "comic shop locator"
+        ],
+        [
+            'img' => "resources/images/buy-dc-power-visa.svg",
+            'description' => "dc power visa"
+        ],
+    ],
 ];
